@@ -9,6 +9,7 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;  
 
     background: #FEECE0;
@@ -97,8 +98,7 @@ picture {
 
 #bottom {    
     display: flex;
-    justify-content: center;
-  
+    justify-content: center;  
     
     background: #9B6647;
 
@@ -111,31 +111,29 @@ picture {
 #ingredients-list {
     width: 433px;
     height: 230px;
-    border: solid red 1px;
-
-
-
 }
 
-#ingredients h2 {  
+.h2-lists {  
+    color: #FEECE0;
+
     font-family: 'Source Serif 4', serif;
-    font-size: 38px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 
-
-#ingredients-list ul {
+#ingredients-list ul,
+#method-list ol {
     margin-left: 20px;
 
     color: #FFF;
 
     font-family: 'Source Sans 3', sans-serif;   
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 400;
 }
 
-#ingredients {
+.header-lists  {
     display: flex;
     align-items: center;
     justify-content: flex-start;
