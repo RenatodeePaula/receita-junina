@@ -98,7 +98,7 @@ picture {
 #bottom {    
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+  
     
     background: #9B6647;
 
@@ -106,6 +106,42 @@ picture {
     height: 439px;
     padding: 74px 50px;
     gap: 64px;    
+}
+
+#ingredients-list {
+    width: 433px;
+    height: 230px;
+    border: solid red 1px;
+
+
+
+}
+
+#ingredients h2 {  
+    font-family: 'Source Serif 4', serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+
+#ingredients-list ul {
+    margin-left: 20px;
+
+    color: #FFF;
+
+    font-family: 'Source Sans 3', sans-serif;   
+    font-size: 21px;
+    font-weight: 400;
+}
+
+#ingredients {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+
+    margin-bottom: 32px;
 }
 
 
