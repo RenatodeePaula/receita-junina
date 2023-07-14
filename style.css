@@ -1,0 +1,112 @@
+
+/*===========GERAL=============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+
+    background: #FEECE0;
+
+    height: 100vh;
+}
+
+/*===========TOP=============*/
+
+#top {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:56px;   
+
+    width: 1073px;
+    height: 293px;
+    margin: 112px 212px 56px 155px;    
+}
+
+picture {
+    width: 409px;
+    height: 293px;
+}
+
+#title {
+    
+    width: 608px;
+    height: 167px;
+
+}
+
+#title h1 {
+    font-family: 'Source Serif 4', serif; 
+    margin-bottom: 32px;
+
+    color: #58190A;   
+    font-size: 69px;    
+    font-weight: 700;
+}
+
+#title p {
+    color: #58190A;
+    font-family: 'Source Serif 4', serif; 
+    margin-bottom: 34.5px;
+    
+    font-size: 35px;    
+    font-weight: 400;
+    line-height: 1px;
+}
+
+#buttons {
+    color: #9B6647;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 282px;
+    height: 32px;
+}
+
+#buttons span {
+
+    font-family: 'Source Serif 4', serif;
+    font-size: 32px;
+    font-weight: 400;        
+
+    margin-right: -5px;
+}
+
+#buttons img {
+    width: 32px;
+    height: 32px;
+}
+
+#buttons p { 
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*===========BOTTOM=============*/
+
+#bottom {    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    background: #9B6647;
+
+    width: 1440px;
+    height: 439px;
+    padding: 74px 50px;
+    gap: 64px;    
+}
+
+
+
