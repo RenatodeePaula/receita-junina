@@ -1,4 +1,3 @@
-
 /*===========GERAL=============*/
 * {
     margin: 0;
@@ -14,19 +13,16 @@ body {
 
     background: #FEECE0;
 
-    height: 100vh;
+    overflow: hidden;
 }
 
 /*===========TOP=============*/
-
 #top {    
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:56px;   
-
-    width: 1073px;
-    height: 293px;
+    gap:56px;  
+   
     margin: 112px 212px 56px 155px;    
 }
 
@@ -35,11 +31,9 @@ picture {
     height: 293px;
 }
 
-#title {
-    
+#title {    
     width: 608px;
     height: 167px;
-
 }
 
 #title h1 {
@@ -73,7 +67,6 @@ picture {
 }
 
 #buttons span {
-
     font-family: 'Source Serif 4', serif;
     font-size: 32px;
     font-weight: 400;        
@@ -84,6 +77,7 @@ picture {
 #buttons img {
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 
 #buttons p { 
@@ -98,14 +92,14 @@ picture {
 
 #bottom {    
     display: flex;
-    justify-content: center;  
+    justify-content:center;  
     
     background: #9B6647;
 
-    width: 1440px;
-    height: 439px;
-    padding: 74px 50px;
-    gap: 64px;    
+    width: 100%;
+    height: 100vh;
+    padding: 40px 150px;
+    gap: 32px;    
 }
 
 #ingredients-list {
@@ -129,7 +123,7 @@ picture {
     color: #FFF;
 
     font-family: 'Source Sans 3', sans-serif;   
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 400;
 }
 
@@ -138,7 +132,6 @@ picture {
     align-items: center;
     justify-content: flex-start;
     gap: 11px;
-
     margin-bottom: 32px;
 }
 
